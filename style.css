@@ -1,0 +1,106 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.header-bg{
+    background-color: #fff;
+    
+
+}
+@font-face {
+    font-family: salmond;
+    src: url(./fonts/Salmond\ Semibold.otf);
+}
+
+@font-face {
+    font-family: calibri;
+    src: url(./fonts/calibri-bold.ttf);
+}
+
+.fontTitle{
+    font-family: salmond;
+    font-size: 50px;
+}
+
+
+
+.cc-link a{
+    color: black;
+    font-family: calibri;
+}
+
+.cc-main-conatiner{
+    background-color:  #014244;
+}
+
+.cc-name-ms{
+    font-family: salmond;
+}
+
+.mini-iam{
+    color: white;
+}
+
+.title-position{
+    font-family: calibri;
+}
+
+.cc-font-becom{
+    color: #fff;
+}
+
+.clh-becom{
+    line-height: 5px;
+    font-size: 10px;
+}
+
+.cfs-60px{
+    font-size: 80px;
+}
+
+.cfs-50px{
+    font-size: 20px;
+}
+
+.introduction{
+    color: #ffffff;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+@media (width >= 992px) {
+    .introduction{
+        text-align: justify;
+    }
+    .cfs-60px{
+        font-size: 60px;
+    }
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.btn-ms{
+    
+    
+    text-decoration: none;
+    color: black;
+}
+.btn-ms-container{
+    width: 150px;
+    height: 40px;
+    background-color: #ffad01;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7px;
+}
