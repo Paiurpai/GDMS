@@ -1,0 +1,176 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.header-bg{
+    background-color: #fff;
+    
+
+}
+@font-face {
+    font-family: salmond;
+    src: url(./fonts/Salmond\ Semibold.otf);
+}
+
+@font-face {
+    font-family: calibri;
+    src: url(./fonts/calibri-bold.ttf);
+}
+@font-face {
+    font-family: time;
+    src: url(./fonts/times\ new\ roman.ttf);
+}
+
+.fontTitle{
+    font-family: salmond;
+    font-size: 50px;
+}
+
+.cali{
+    font-family: calibri;
+}
+.sal{
+    font-family: salmond;
+}
+.timeNew{
+    font-family: time;
+}
+
+.cc-link a{
+    color: black;
+    font-family: calibri;
+}
+
+.text-ms-color{
+    color: #014244;
+}
+.cc-main-conatiner{
+    background: rgb(248,171,3);
+background: linear-gradient(90deg, rgba(248,171,3,1) -8%, rgba(200,150,27,1) 0%, rgba(28,76,113,1) 65%);
+}
+
+.cc-name-ms{
+    font-family: salmond;
+}
+
+.clh-becom{
+    line-height: 5px;
+    font-size: 10px;
+}
+
+.cfs-8rem{
+    font-size: 8rem;
+}
+
+
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.btn-ms{
+
+    text-decoration: none;
+    color: black;
+}
+.btn-ms-container{
+    width: 150px;
+    height: 40px;
+    background-color: #ffad01;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7px;
+}
+.btn-mentor-container{
+    width: 200px;
+    height: 45px;
+    background-color: #1c4c71;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.5s ease;
+    margin-left: 30%;
+    margin-top: 50px;
+   
+    
+}
+.btn-mentor-container:hover{
+    width: 250px;
+    height: 45px ;
+}
+.btn-mentor{
+    text-decoration: none;
+    color: #f8ab03;
+    padding: 15px;
+
+    
+}
+
+.cf-2rem{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.themed-color{
+    color: #014244;
+}
+.footer-bg{
+    background-color: #014244;
+}
+.footer-a{
+    text-decoration: none;
+}
+
+@media (width < 992px) {
+    .cfs-8rem{
+        font-size: 50px;
+    }
+    .cc-main-conatiner{
+        background: linear-gradient(100deg, #f8ab03, #1c4c71);
+    }
+    .btn-mentor-container{
+        width: 150px;
+        height: 45px;
+        background-color: #1c4c71;
+        border-radius: 50px;
+        text-align: center;
+        padding: 10px;
+        transition: all 0.5s ease;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       
+        
+    }
+    .btn-mentor-container:hover{
+        width: 200px;
+        height: 45px ;
+    }
+    .btn-mentor{
+        text-decoration: none;
+        color: #f8ab03;
+        padding: 15px;
+        font-size: 12px;
+    
+        
+    }
+    .text-mobile-center{
+        text-align: center;
+    }
+
+}
+
+
